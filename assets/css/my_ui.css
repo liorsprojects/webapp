@@ -1,0 +1,29 @@
+/* custom checkbox implementation*/
+input[type=checkbox] {
+    display:none;
+}
+
+input[type=checkbox] + label
+{
+    background: url('../img/ui/blue-check-uncheck.png');
+    height: 18px;
+    width: 18px;
+    display:inline-block;
+    background-repeat:no-repeat;
+    background-position: 0 0;
+    font-size:18px;
+    vertical-align:middle;
+    padding: 10px;
+
+}
+input[type=checkbox]:checked + label
+{
+    background: url('../img/ui/blue-check.png');
+    height: 18px;
+    width: 18px;
+    display:inline-block;
+    background-repeat:no-repeat;
+
+    font-size:18px;
+    vertical-align:middle;
+}
