@@ -40,16 +40,34 @@ var CounterModel = Backbone.Model.extend({
     }
 });
 
-var counter = new CounterModel();
+var SidebarModel = Backbone.Model.extend({
 
-var Dashboard = Backbone.View.extend({
+    defaults: {
+       active: 'dashboard'
+    },
+    initialize: function () {
+        console.log('New SidebarModel created...');
+    },
+    setActive: function(options) {
+        console.log('SidebarModel: setActice created...');
+    this.active = options.active;
+    }
+
+});
+
+
+
+var counter = new CounterModel();
+var sidebar = new SidebarModel();
+
+var App = Backbone.View.extend({
     el: '#container',
     initialize: function () {
-        console.log("Dashboard:init");
+        console.log("App:initialize");
         this.render();
     },
     render: function () {
-        console.log("Dashboard:render");
+        console.log("App:render");
         require_template('container');
         var template = _.template($('#template_container').html(), {});
         this.$el.html(template);
@@ -64,18 +82,37 @@ var Sidebar = Backbone.View.extend({
     initialize: function () {
         console.log("Sidebar:initialize");
         this.listenTo(counter, 'change', this.render);
+        this.listenTo(sidebar, 'change', this.render);
         this.render();
         initSidebar();
     },
     render: function () {
         console.log("Sidebar:render");
         require_template('sidebar_menu');
-        var template = _.template($('#template_sidebar_menu').html(), {counter: counter});
+        var template = _.template($('#template_sidebar_menu').html(), {counter: counter, active : this.active});
         this.$el.html(template);
+        this.setActive();
         unrequire_template('sidebar_menu');
+    },
+    setActive: function() {
+        $('a[href="#' + this.active +'"]').addClass('active');
     }
 });
 
+var Dashboard = Backbone.View.extend({
+    el: '#main-content',
+    initialize: function () {
+        console.log("Dashboard:initialize");
+        this.render();
+    },
+    render: function () {
+        console.log("Dashboard:render");
+        require_template('dashboard');
+        var template = _.template($('#template_dashboard').html(), {});
+        this.$el.html(template);
+        unrequire_template('dashboard');
+    }
+});
 var Inbox = Backbone.View.extend({
     el: '#main-content',
     initialize: function () {
@@ -85,7 +122,7 @@ var Inbox = Backbone.View.extend({
     render: function () {
         console.log("Inbox:render");
         require_template('inbox');
-        var template = _.template($('#template_inbox').html(), {});
+        var template = _.template($('#template_inbox').html(), {messages: messages.models});
         this.$el.html(template);
         unrequire_template('inbox');
     }
@@ -124,19 +161,29 @@ var Tasks = Backbone.View.extend({
 
 var Router = Backbone.Router.extend({
     routes: {
-        '': 'dashboard',
+        '': 'index',
+        'dashboard': 'dashboard',
         'inbox': 'inbox',
         'tasks': 'tasks',
-        'calendar': 'calendar'
+        'calendar': 'calendar',
+        'compose_new_mail': 'compose_new_mail'
+
     }
 });
 
 var router = new Router();
+var sideBar;
 
+router.on('route:index', function () {
+    console.log("route:index triggered");
+    new App();
+    new Sidebar();
+    $('#sidebar li a[href="#dashboard"]').addClass('active');
+    new Dashboard();
+});
 router.on('route:dashboard', function () {
     console.log("route:dashboard triggered");
     new Dashboard();
-    new Sidebar();
 });
 
 router.on('route:inbox', function () {
@@ -152,6 +199,10 @@ router.on('route:tasks', function () {
 router.on('route:calendar', function () {
     console.log("route:calendar triggered");
     new Calendar();
+});
+
+router.on('route:compose_new_mail', function () {
+    console.log("route:compose_new_mail triggered");
 });
 
 Backbone.history.start();
