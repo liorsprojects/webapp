@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f35ee3a-cb92-42ac-b036-25b89aea0f96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/templates/dashboard.tmpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/inbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/templates/calendar.tmpl" afterPath="$PROJECT_DIR$/assets/templates/calendar.tmpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/common-scripts.js" afterPath="$PROJECT_DIR$/assets/js/common-scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/templates/inbox.tmpl" afterPath="$PROJECT_DIR$/assets/templates/inbox.tmpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/templates/sidebar_menu.tmpl" afterPath="$PROJECT_DIR$/assets/templates/sidebar_menu.tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/templates/dashboard.tmpl" afterPath="$PROJECT_DIR$/assets/templates/dashboard.tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dashio-duplicate.iws" />
@@ -41,19 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inbox.tmpl" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="inbox.tmpl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/templates/inbox.tmpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="10" selection-start="6123" selection-end="6123" vertical-scroll-proportion="0.9237668" vertical-offset="1573" max-vertical-offset="2550">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar_menu.tmpl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/templates/sidebar_menu.tmpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+            <state line="46" column="20" selection-start="2480" selection-end="2495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
               <folding />
             </state>
           </provider>
@@ -62,7 +50,43 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="30" selection-start="2422" selection-end="2422" vertical-scroll-proportion="-26.615385" vertical-offset="362" max-vertical-offset="1275">
+            <state line="53" column="45" selection-start="2107" selection-end="2107" vertical-scroll-proportion="-20.038462" vertical-offset="380" max-vertical-offset="1275">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="container.tmpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/templates/container.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="239" column="17" selection-start="11570" selection-end="11570" vertical-scroll-proportion="0.0" vertical-offset="3244" max-vertical-offset="4165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="83" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="56882">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.tmpl" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/templates/dashboard.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="27" selection-start="940" selection-end="940" vertical-scroll-proportion="0.42453855" vertical-offset="0" max-vertical-offset="921">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calendar.tmpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/templates/calendar.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="87" selection-start="915" selection-end="1002" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -71,7 +95,16 @@
       <file leaf-file-name="common-scripts.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/common-scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="89" selection-start="3625" selection-end="3625" vertical-scroll-proportion="0.0" vertical-offset="1731" max-vertical-offset="5338">
+            <state line="157" column="67" selection-start="4488" selection-end="4488" vertical-scroll-proportion="0.0" vertical-offset="1947" max-vertical-offset="5372">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tasks.tmpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/templates/tasks.tmpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="25" selection-start="0" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4267">
               <folding />
             </state>
           </provider>
@@ -94,7 +127,6 @@
         <option value="$PROJECT_DIR$/assets/css/boostrap.css" />
         <option value="$PROJECT_DIR$/assets/css/zabuto_calendar.css" />
         <option value="$PROJECT_DIR$/assets/js/gritter/css/jquery.gritter.css" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/css/syle-responsive.css" />
         <option value="$PROJECT_DIR$/assets/js/chart-master/Charts.js" />
         <option value="$PROJECT_DIR$/general.html" />
@@ -130,25 +162,27 @@
         <option value="$PROJECT_DIR$/todo_list.html" />
         <option value="$PROJECT_DIR$/assets/templates/tasks.tmpl" />
         <option value="$PROJECT_DIR$/assets/js/tasks.js" />
-        <option value="$PROJECT_DIR$/assets/js/calendar-conf-events.js" />
-        <option value="$PROJECT_DIR$/assets/templates/calendar.tmpl" />
         <option value="$PROJECT_DIR$/assets/css/my_ui.css" />
         <option value="$PROJECT_DIR$/assets/templates/sidebar_menu.tmpl" />
-        <option value="$PROJECT_DIR$/assets/templates/dashboard.tmpl" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/assets/templates/inbox.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/js/inbox.js" />
-        <option value="$PROJECT_DIR$/assets/js/common-scripts.js" />
         <option value="$PROJECT_DIR$/assets/templates/inbox.tmpl" />
+        <option value="$PROJECT_DIR$/assets/js/calendar-conf-events.js" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/assets/templates/calendar.tmpl" />
+        <option value="$PROJECT_DIR$/center_spinner.html" />
+        <option value="$PROJECT_DIR$/assets/js/common-scripts.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/templates/dashboard.tmpl" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1288" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1040" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -235,42 +269,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dashio-ebay-new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashio-duplicate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashio-ebay-new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashio-duplicate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashio-ebay-new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,14 +390,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1288" y="-8" width="1296" height="1040" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14166667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -407,7 +405,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -459,20 +457,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blank.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="419" column="0" selection-start="18806" selection-end="18806" vertical-scroll-proportion="0.0" vertical-offset="6299" max-vertical-offset="7225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="702" column="27" selection-start="31987" selection-end="31987" vertical-scroll-proportion="0.0" vertical-offset="11934" max-vertical-offset="12546">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pricing_table.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="483" column="0" selection-start="22093" selection-end="22093" vertical-scroll-proportion="0.0" vertical-offset="7387" max-vertical-offset="8313">
@@ -482,25 +466,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inbox.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="666" column="28" selection-start="31261" selection-end="31261" vertical-scroll-proportion="0.0" vertical-offset="8420" max-vertical-offset="12019">
-          <folding />
-        </state>
+        <state line="666" column="28" selection-start="31261" selection-end="31261" vertical-scroll-proportion="0.0" vertical-offset="8420" max-vertical-offset="12019" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/zabuto_calendar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="1" selection-start="3629" selection-end="3629" vertical-scroll-proportion="0.0" vertical-offset="2172" max-vertical-offset="3145">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3340" column="0" selection-start="61057" selection-end="61057" vertical-scroll-proportion="0.0" vertical-offset="55909" max-vertical-offset="56882">
-          <folding>
-            <element signature="e#25618#25903#1" expanded="false" />
-          </folding>
-        </state>
+        <state line="179" column="1" selection-start="3629" selection-end="3629" vertical-scroll-proportion="0.0" vertical-offset="2172" max-vertical-offset="3145" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style-responsive.css">
@@ -517,9 +488,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5784" column="41" selection-start="127587" selection-end="127587" vertical-scroll-proportion="0.0" vertical-offset="97457" max-vertical-offset="98430">
-          <folding />
-        </state>
+        <state line="5784" column="41" selection-start="127587" selection-end="127587" vertical-scroll-proportion="0.0" vertical-offset="97457" max-vertical-offset="98430" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/general.html">
@@ -545,21 +514,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/buttons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="586" column="0" selection-start="27977" selection-end="27977" vertical-scroll-proportion="-31.192308" vertical-offset="9151" max-vertical-offset="10064">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#0;n#ul#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#4;n#ul#0;n#li#0;n#ul#0;n#div#1;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
+        <state line="586" column="0" selection-start="27977" selection-end="27977" vertical-scroll-proportion="-31.192308" vertical-offset="9151" max-vertical-offset="10064" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/sparkline-chart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2227">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2227" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/panels.html">
@@ -591,9 +551,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/fullcalendar/bootstrap-fullcalendar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="631" column="1" selection-start="11576" selection-end="11576" vertical-scroll-proportion="0.0" vertical-offset="9877" max-vertical-offset="10829">
-          <folding />
-        </state>
+        <state line="631" column="1" selection-start="11576" selection-end="11576" vertical-scroll-proportion="0.0" vertical-offset="9877" max-vertical-offset="10829" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/form_component.html">
@@ -624,12 +582,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/html5shiv.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="176" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#2445#2484#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="7" column="176" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/respond.min.js">
@@ -667,9 +620,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/morris-conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="46" selection-start="2231" selection-end="2231" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1921">
-          <folding />
-        </state>
+        <state line="54" column="46" selection-start="2231" selection-end="2231" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1921" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chartsjs.html">
@@ -695,11 +646,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/jquery.dcjqaccordion.2.7.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1459" max-vertical-offset="3910">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="1459" max-vertical-offset="3910" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic_table.html">
@@ -732,16 +679,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/tasks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inbox.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="34" selection-start="1770" selection-end="1770" vertical-scroll-proportion="-20.692308" vertical-offset="244" max-vertical-offset="1139">
-          <folding />
-        </state>
+        <state line="46" column="34" selection-start="1770" selection-end="1770" vertical-scroll-proportion="-20.692308" vertical-offset="244" max-vertical-offset="1139" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todo_list.html">
@@ -758,46 +701,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/calendar-conf-events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="1" selection-start="3827" selection-end="3827" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="2057">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/templates/container.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="239" column="17" selection-start="11570" selection-end="11570" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/morris.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="405" column="41" selection-start="19116" selection-end="19120" vertical-scroll-proportion="1.1923077" vertical-offset="6916" max-vertical-offset="7837">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/templates/calendar.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="1" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/templates/tasks.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="0" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4267">
-          <folding />
-        </state>
+        <state line="405" column="41" selection-start="19116" selection-end="19120" vertical-scroll-proportion="1.1923077" vertical-offset="6916" max-vertical-offset="7837" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/responsive_table.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="701" column="0" selection-start="34198" selection-end="34198" vertical-scroll-proportion="-225.6923" vertical-offset="6049" max-vertical-offset="12019">
-          <folding />
-        </state>
+        <state line="701" column="0" selection-start="34198" selection-end="34198" vertical-scroll-proportion="-225.6923" vertical-offset="6049" max-vertical-offset="12019" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pricing_table.html">
@@ -809,23 +720,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/my_ui.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/templates/dashboard.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="86" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
+        <state line="29" column="0" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/to-do.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="42" selection-start="853" selection-end="858" vertical-scroll-proportion="-5.2363634" vertical-offset="579" max-vertical-offset="1955">
-          <folding />
-        </state>
+        <state line="51" column="42" selection-start="853" selection-end="858" vertical-scroll-proportion="-5.2363634" vertical-offset="579" max-vertical-offset="1955" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/profile.html">
@@ -837,16 +737,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="548" selection-end="548" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="30" selection-start="2422" selection-end="2422" vertical-scroll-proportion="-26.615385" vertical-offset="362" max-vertical-offset="1275">
-          <folding />
-        </state>
+        <state line="14" column="32" selection-start="548" selection-end="548" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/templates/sidebar_menu.tmpl">
@@ -856,9 +747,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/common-scripts.js">
+    <entry file="file://$PROJECT_DIR$/assets/js/calendar-conf-events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="89" selection-start="3625" selection-end="3625" vertical-scroll-proportion="0.0" vertical-offset="1731" max-vertical-offset="5338">
+        <state line="27" column="30" selection-start="907" selection-end="959" vertical-scroll-proportion="0.0" vertical-offset="1472" max-vertical-offset="2057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="83" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="56882">
           <folding />
         </state>
       </provider>
@@ -870,9 +768,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/templates/container.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="239" column="17" selection-start="11570" selection-end="11570" vertical-scroll-proportion="0.0" vertical-offset="3244" max-vertical-offset="4165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/spin.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/templates/tasks.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="25" selection-start="0" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4267">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/templates/calendar.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="87" selection-start="915" selection-end="1002" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/common-scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="67" selection-start="4488" selection-end="4488" vertical-scroll-proportion="0.0" vertical-offset="1947" max-vertical-offset="5372">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="45" selection-start="2107" selection-end="2107" vertical-scroll-proportion="-20.038462" vertical-offset="380" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/templates/inbox.tmpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="10" selection-start="6123" selection-end="6123" vertical-scroll-proportion="0.9237668" vertical-offset="1573" max-vertical-offset="2550">
+        <state line="46" column="20" selection-start="2480" selection-end="2495" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/templates/dashboard.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="27" selection-start="940" selection-end="940" vertical-scroll-proportion="0.42453855" vertical-offset="0" max-vertical-offset="921">
           <folding />
         </state>
       </provider>

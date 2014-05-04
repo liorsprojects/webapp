@@ -150,6 +150,8 @@ var Tasks = Backbone.View.extend({
         console.log("Tasks:initialize");
         this.render();
     },
+
+
     render: function () {
         console.log("Tasks:render");
         require_template('tasks');
