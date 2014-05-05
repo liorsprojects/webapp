@@ -121,10 +121,10 @@ var Inbox = Backbone.View.extend({
     },
     render: function () {
         console.log("Inbox:render");
-        require_template('inbox');
+       // require_template('inbox');
         var template = _.template($('#template_inbox').html(), {messages: messages.models});
         this.$el.html(template);
-        unrequire_template('inbox');
+        //unrequire_template('inbox');
     }
 });
 
@@ -150,8 +150,6 @@ var Tasks = Backbone.View.extend({
         console.log("Tasks:initialize");
         this.render();
     },
-
-
     render: function () {
         console.log("Tasks:render");
         require_template('tasks');
@@ -185,21 +183,25 @@ router.on('route:index', function () {
 });
 router.on('route:dashboard', function () {
     console.log("route:dashboard triggered");
+    renderAppIfNeeded("dashboard");
     new Dashboard();
 });
 
 router.on('route:inbox', function () {
     console.log("route:inbox triggered");
+    renderAppIfNeeded("inbox");
     new Inbox();
 });
 
 router.on('route:tasks', function () {
     console.log("route:tasks triggered");
+    renderAppIfNeeded("tasks");
     new Tasks();
 });
 
 router.on('route:calendar', function () {
     console.log("route:calendar triggered");
+    renderAppIfNeeded("calendar");
     new Calendar();
 });
 
@@ -209,6 +211,13 @@ router.on('route:compose_new_mail', function () {
 
 Backbone.history.start();
 
+function renderAppIfNeeded(active) {
+    if (isEmpty($('#container'))) {
+        new App();
+        new Sidebar();
+        $('#sidebar li a[href="#' + active + '"]').addClass('active');
+    }
+}
 
 function initSidebar() {
     $('#nav-accordion').dcAccordion({
@@ -307,4 +316,8 @@ function require_template(templateName) {
 function unrequire_template(templateName) {
     var templateSelector =  '#template_' + templateName;
     $(templateSelector).remove();
+}
+
+function isEmpty( el ){
+    return !$.trim(el.html())
 }
