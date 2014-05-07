@@ -255,13 +255,13 @@ function initToggleSidebar() {
             $('#sidebar').css({
                 'margin-left': '-210px'
             });
-            $('#sidebar > ul').hide();
+            $('#sidebar > ul').fadeOut('slow');
             $("#container").addClass("sidebar-closed");
         } else {
             $('#main-content').css({
                 'margin-left': '210px'
             });
-            $('#sidebar > ul').show();
+            $('#sidebar > ul').fadeIn('slow');
             $('#sidebar').css({
                 'margin-left': '0'
             });

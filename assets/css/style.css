@@ -28,11 +28,11 @@ a, a:hover, a:focus {
 }
 ::selection {
 
-    background: #4ECDC4;
+    background: #eea511;
     color: #fff;
 }
 ::-moz-selection {
-    background: #4ECDC4;
+    background: #eea511;
     color: #fff;
 }
 
@@ -43,7 +43,7 @@ a, a:hover, a:focus {
 
 /* Bootstrap Modifications */
 .modal-header {
-    background: #4ECDC4;
+    background: #eea511;
 }
 
 .modal-title {
@@ -73,7 +73,7 @@ a, a:hover, a:focus {
 /*Theme Backgrounds*/
 
 .bg-theme {
-    background-color: #4ECDC4;
+    background-color: #eea511;
 }
 
 .bg-theme02 {
@@ -91,7 +91,7 @@ a, a:hover, a:focus {
 
 .btn-theme {
     color: #fff;
-    background-color: #4ECDC4;
+    background-color: #eea511;
     border-color: #48bcb4;
 }
 .btn-theme:hover,
@@ -202,11 +202,11 @@ hr {
 /*Exclusive Theme Colors Configuration*/
 
 .label-theme {
-    background-color: #4ECDC4;
+    background-color: #eea511;
 }
 
 .bg-theme {
-    background-color: #4ECDC4;
+    background-color: #eea511;
 }
 
 ul.top-menu > li > .logout {
@@ -217,7 +217,7 @@ ul.top-menu > li > .logout {
     border: 1px solid #64c3c2 !important;
     padding: 5px 15px;
     margin-right: 15px;
-    background: #4ECDC4;
+    background: #eea511;
     margin-top: 15px;
 }
 
@@ -229,6 +229,11 @@ ul.top-menu > li > .logout {
     height: 100%;
     position: fixed;
     background: #2f323a;
+    -webkit-transition: margin-left 0.75s ease;
+    -moz-transition: margin-left 0.75s ease;
+    -o-transition: margin-left 0.75s ease;
+    -ms-transition: margin-left 0.75s ease;
+    transition: margin-left 0.75s ease;
 }
 
 #sidebar h5 {
@@ -321,7 +326,7 @@ ul.sidebar-menu li ul.sub li a:hover {
 }
 
 ul.sidebar-menu li ul.sub li.active a {
-    color: #4ECDC4;
+    color: #eea511;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -360,7 +365,7 @@ ul.sidebar-menu li a{
 }
 
 ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
-    background: #4ECDC4;
+    background: #eea511;
     color: #fff;
     display: block;
 
@@ -394,6 +399,11 @@ ul.sidebar-menu li a.active i {
 /* MAIN CONTENT CONFIGURATION */
 #main-content {
     margin-left: 210px;
+    -webkit-transition: margin-left 0.75s ease;
+    -moz-transition: margin-left 0.75s ease;
+    -o-transition: margin-left 0.75s ease;
+    -ms-transition: margin-left 0.75s ease;
+    transition: margin-left 0.75s ease;
 }
 
 .header, .footer {
@@ -423,12 +433,14 @@ ul.sidebar-menu li a.active i {
     width: 100%;
 }
 
+
 a.logo {
-    font-size: 24px;
+    letter-spacing: -2px;
+    font: 28px Calibri ,sans-serif;
     color: #f2f2f2;
     float: left;
-    margin-top: 15px;
-    text-transform: uppercase;
+    margin-top: 11px;
+    /* font-style: inherit; */
 }
 
 a.logo b {
@@ -441,7 +453,8 @@ a.logo:hover, a.logo:focus {
 }
 
 a.logo span {
-    color: #4ECDC4;
+    color: #eea511;
+    letter-spacing:-5px;
 }
 
 
@@ -519,7 +532,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 }
 
 .dropdown-menu.extended li p.green {
-    background-color: #4ECDC4;
+    background-color: #eea511;
     color: #fff;
 }
 
@@ -723,9 +736,9 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     border-top-color: #FCB322 !important;
 }
 .notify-arrow-green {
-    border-color: transparent transparent #4ECDC4;
-    border-bottom-color: #4ECDC4 !important;
-    border-top-color: #4ECDC4 !important;
+    border-color: transparent transparent #eea511;
+    border-bottom-color: #eea511 !important;
+    border-top-color: #eea511 !important;
 }
 
 
@@ -809,7 +822,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 }
 
 .ds a {
-    color: #4ECDC4;
+    color: #eea511;
 }
 
 /* MAIN CHART CONFIGURATION */
@@ -858,8 +871,8 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 .custom-bar-chart .bar .value {
     position: absolute;
     bottom: 0;
-    background: #4ECDC4;
-    color: #4ECDC4;
+    background: #eea511;
+    color: #eea511;
     width: 100%;
     -webkit-border-radius: 5px 5px 0 0;
     -moz-border-radius: 5px 5px 0 0;
@@ -989,7 +1002,7 @@ PANELS CONFIGURATIONS
 /*Green Panel*/
 .green-panel {
     text-align: center;
-    background: #4ECDC4;
+    background: #eea511;
 }
 .green-panel .green-header {
     background: #43b1a9;
@@ -1473,7 +1486,7 @@ PANELS CONFIGURATIONS
     font-weight: 900;
 }
 .profile-01 {
-    background: #4ECDC4;
+    background: #eea511;
     height: 50px;
 }
 .profile-01:hover {
@@ -1521,7 +1534,7 @@ PANELS CONFIGURATIONS
     color: #cdcdcd;
 }
 .pr2-social a:hover {
-    color: #4ECDC4;
+    color: #eea511;
 }
 .pr2-social i {
     margin-top: 15px;
@@ -1577,7 +1590,7 @@ PANELS CONFIGURATIONS
     font-size: 12px;
 }
 .panel.terques-chart .chart-tittle .value a:hover, .panel.terques-chart .chart-tittle .value a.active {
-    color: #4ECDC4;
+    color: #eea511;
     font-size: 12px;
 }
 .panel.terques-chart .chart-tittle {
@@ -1660,7 +1673,7 @@ margin-bottom: 15px;
     display: block;
     position: relative;
     overflow: hidden;
-    background-color: #4ECDC4;
+    background-color: #eea511;
     -webkit-transition: background-color 0.4s;
     -moz-transition: background-color 0.4s;
     -o-transition: background-color 0.4s;
@@ -1680,7 +1693,7 @@ margin-bottom: 15px;
 }
 
 .project:hover .photo-wrapper {
-    background-color: #4ECDC4;
+    background-color: #eea511;
     background-image:url(../img/zoom.png);
     background-repeat:no-repeat;
     background-position:center;
@@ -1936,7 +1949,7 @@ ul li {
 }
 .dataTables_paginate.paging_bootstrap.pagination li:hover a, .dataTables_paginate.paging_bootstrap.pagination li.active a {
     color: #fff;
-    background: #4ECDC4;
+    background: #eea511;
     border-radius: 3px;
     -webkit-border-radius: 3px;
 }
@@ -1954,7 +1967,7 @@ ul li {
     margin: 0;
     padding: 25px 20px;
     text-align: center;
-    background: #4ecdc4;
+    background: #eea511;
     border-radius: 5px 5px 0 0;
     -webkit-border-radius: 5px 5px 0 0;
     color: #fff;
@@ -2176,7 +2189,7 @@ ul.my-friends li .friends-pic {
     height:3px;
     margin: 10px auto;
     width: 80px;
-    background-color:#4ECDC4;
+    background-color:#eea511;
 }
 .icn-main-container {
     position: relative;
@@ -2192,7 +2205,7 @@ ul.my-friends li .friends-pic {
     font-size: 2.4em;
     line-height: 100px;
     color: #fff;
-    background-color:#4ECDC4;
+    background-color:#eea511;
     -webkit-transition: all 0.6s ease-in-out;
     transition: all 0.6s ease-in-out;
 }
@@ -2272,7 +2285,7 @@ ul.my-friends li .friends-pic {
 
 .dm-icon:active,
 .dm-icon:hover {
-    background: #4ECDC4
+    background: #eea511
 }
 
 
@@ -2300,13 +2313,13 @@ ul.my-friends li .friends-pic {
 }
 .mail-nav>li>a:hover,.mail-nav>li>a:focus {
     background:#fafafa;
-    color:#4ECDC4;
+    color:#eea511;
     border-right:3px solid #1fb5ad;
 }
 .mail-nav>li.active>a,.mail-nav>li.active>a:hover,.mail-nav>li.active>a:focus {
     background:#fafafa;
-    color:#4ECDC4;
-    border-right:3px solid #4ECDC4;
+    color:#eea511;
+    border-right:3px solid #eea511;
 }
 .mail-nav>li+li {
     margin-left:0;
@@ -2356,7 +2369,7 @@ a.mail-dropdown {
     padding:20px;
 }
 .btn-compose {
-    background:#4ECDC4;
+    background:#eea511;
     padding:12px 0;
     text-align:center;
     width:100%;
@@ -2506,6 +2519,11 @@ ul.labels-info li img {
 .table-inbox tr td:hover {
     cursor:pointer;
 }
+
+.table-inbox tr td .fa-flag {
+    color: red;
+}
+
 .table-inbox tr td .fa-star.inbox-started,.table-inbox tr td .fa-star:hover {
     color:#f78a09;
 }
@@ -2513,7 +2531,7 @@ ul.labels-info li img {
     color:#d5d5d5;
 }
 .table-inbox tr.unread td {
-    font-weight:600;
+    font-weight:900;
     background:#f7f7f7;
 }
 
@@ -2683,11 +2701,11 @@ ul.inbox-pagination li {
 }
 
 .view-mail a, .attachment-mail a:hover {
-    color: #4ECDC4;
+    color: #eea511;
 }
 
 .attachment-mail a{
-    color: #4ECDC4;
+    color: #eea511;
 }
 
 .attachment-mail ul li  {
@@ -2765,7 +2783,7 @@ ul.inbox-pagination li {
 }
 
 .chat-room-head {
-    background:#4ECDC4;
+    background:#eea511;
     color: #FFFFFF;
     min-height: 70px;
     padding: 15px;
@@ -2920,7 +2938,7 @@ ul.chat-user li a:hover{
     font-size: 16px;
 }
 .room-box h5 a {
-    color: #4ECDC4;
+    color: #eea511;
 }
 
 .chat-tools {
@@ -2968,7 +2986,7 @@ ul.chat-available-user li a {
 }
 
 ul.chat-available-user li a:hover {
-    color: #4ECDC4;
+    color: #eea511;
 }
 
 
@@ -3314,7 +3332,7 @@ ul.chat-available-user li a:hover {
 
 /*footer*/
 .site-footer {
-    background: #4ECDC4;
+    background: #eea511;
     color: #fff;
     padding: 10px 0;
 }
