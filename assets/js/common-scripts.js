@@ -184,12 +184,14 @@ router.on('route:index', function () {
 router.on('route:dashboard', function () {
     console.log("route:dashboard triggered");
     renderAppIfNeeded("dashboard");
+    $(document).attr('title', 'ebayHQ | Dashboard');
     new Dashboard();
 });
 
 router.on('route:inbox', function () {
     console.log("route:inbox triggered");
     renderAppIfNeeded("inbox");
+    $(document).attr('title', 'ebayHQ | Inbox');
     new Inbox();
 });
 
@@ -197,12 +199,14 @@ router.on('route:tasks', function () {
     console.log("route:tasks triggered");
     renderAppIfNeeded("tasks");
     new Tasks();
+    $(document).attr('title', 'ebayHQ | Tasks');
 });
 
 router.on('route:calendar', function () {
     console.log("route:calendar triggered");
     renderAppIfNeeded("calendar");
     new Calendar();
+    $(document).attr('title', 'ebayHQ | Calendar');
 });
 
 router.on('route:compose_new_mail', function () {
