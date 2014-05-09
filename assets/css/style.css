@@ -229,11 +229,11 @@ ul.top-menu > li > .logout {
     height: 100%;
     position: fixed;
     background: #2f323a;
-    -webkit-transition: margin-left 0.75s ease;
-    -moz-transition: margin-left 0.75s ease;
-    -o-transition: margin-left 0.75s ease;
-    -ms-transition: margin-left 0.75s ease;
-    transition: margin-left 0.75s ease;
+    -webkit-transition: margin-left 0.2s ease;
+    -moz-transition: margin-left 0.2s ease;
+    -o-transition: margin-left 0.2s ease;
+    -ms-transition: margin-left 0.2s ease;
+    transition: margin-left 0.2s ease;
 }
 
 #sidebar h5 {
@@ -399,11 +399,11 @@ ul.sidebar-menu li a.active i {
 /* MAIN CONTENT CONFIGURATION */
 #main-content {
     margin-left: 210px;
-    -webkit-transition: margin-left 0.75s ease;
-    -moz-transition: margin-left 0.75s ease;
-    -o-transition: margin-left 0.75s ease;
-    -ms-transition: margin-left 0.75s ease;
-    transition: margin-left 0.75s ease;
+    -webkit-transition: margin-left 0.2s ease;
+    -moz-transition: margin-left 0.2s ease;
+    -o-transition: margin-left 0.2s ease;
+    -ms-transition: margin-left 0.2s ease;
+    transition: margin-left 0.2s ease;
 }
 
 .header, .footer {
